@@ -31,7 +31,7 @@ done
 start() {
   if [ -f etc/radvd.conf ];then
     if [ -s etc/radvd.conf ];then
-      > radvd.conf
+      > etc/radvd.conf
       config
     else
       config
